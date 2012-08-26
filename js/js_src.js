@@ -6,14 +6,17 @@ var Randomicimages = Randomicimages || {};
 
 Randomicimages = {
     urls: (function(){
+        var path;
+        path = 'images/';
+
         return [
-            'images/image_00.jpg',
-            'images/image_01.jpg',
-            'images/image_02.jpg',
-            'images/image_03.jpg',
-            'images/image_04.jpg',
-            'images/image_05.jpg',
-            'images/image_06.jpg'
+            path + 'image_00.jpg',
+            path + 'image_01.jpg',
+            path + 'image_02.jpg',
+            path + 'image_03.jpg',
+            path + 'image_04.jpg',
+            path + 'image_05.jpg',
+            path + 'image_06.jpg'
         ];
     })(),
 
