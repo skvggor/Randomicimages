@@ -36,6 +36,5 @@ Randomicimages = {
 };
 
 window.onload = function() {
-    var image = document.getElementById('banner');
-    image.src = Randomicimages.randomizeUrls();
+    document.querySelector('#banner').src = Randomicimages.randomizeUrls();
 };
